@@ -6,7 +6,8 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		// 1. Convert a list of strings to uppercase
-        List<String> string = Arrays.asList("Abc","ask","bIke","CAR","Bus","Abc","Abc");       System.out.println(string.stream().map(String::toUpperCase).collect(Collectors.toList()));
+        List<String> string = Arrays.asList("Abc","ask","bIke","CAR","Bus","Abc","Abc");
+        System.out.println(string.stream().map(String::toUpperCase).collect(Collectors.toList()));
 
         // 2. Count strings starting with "A"
         System.out.println(string.stream().filter(x -> x.startsWith("A")).count());
