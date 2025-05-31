@@ -38,7 +38,7 @@ public class Main {
 		// 8. Remove duplicates
 		System.out.println(string.stream().distinct().collect(Collectors.toList()));
 
-		// 9. Join strings with comma
+		// 9. Join strings using comma
 		System.out.println(string.stream().collect(Collectors.joining(",")));
 
 		// 10. Convert to set
